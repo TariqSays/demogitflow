@@ -1,0 +1,29 @@
+#include <stdio.h>
+
+int main(void) {
+  int inner,outer,space;
+  int space_length = 4;
+
+  for(inner=1;inner<=4;inner++)
+  {
+    for(space=1; space<=space_length; space++)
+      {
+        printf(" ");
+      }
+    for(outer=1;outer<=inner;outer++)
+    {
+          printf(" ");
+            printf("%d",outer);
+    }
+    printf("\n");
+    space_length = space_length-1;
+  }
+
+printf("\n");
+printf("Alhamdulillah\n");
+  
+  return 0;
+}
+
+
+

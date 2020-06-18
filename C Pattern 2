@@ -1,0 +1,28 @@
+#include <stdio.h>
+
+int main(void) {
+  int inner,outer,increment;
+  int alphabet = 97;
+  increment =alphabet;
+
+  printf("\n");
+  for(inner=1;inner<=5;inner++)
+  {
+    for(outer=1;outer<=5;outer++)
+    {
+      printf(" %c",alphabet);
+      alphabet = alphabet + 1;
+    }
+    increment = increment +1;
+    alphabet = increment;
+    printf("\n");
+  }
+
+printf("\n");
+printf("Alhamdulillah\n");
+  
+  return 0;
+}
+
+
+
